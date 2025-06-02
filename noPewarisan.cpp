@@ -10,3 +10,11 @@ class baseClass final
         }
 };
 
+class drivedClass : public baseClass
+{
+    public:
+        void perkenalan()
+    {
+        cout << "Hallo saya Fuction dari derived Class";
+    }
+};
